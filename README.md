@@ -1,4 +1,4 @@
-# The 2i2c Planning Repository
+# Coordinating external work
 
 This is a lightweight repository to facilitate planning deliverables and tasks for projects that do not have a natural repository inside of 2i2c.
 
