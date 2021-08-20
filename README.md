@@ -2,15 +2,28 @@
 
 This is a lightweight repository to facilitate planning deliverables and tasks for projects that do not have a natural repository inside of 2i2c.
 
-Its primary use it to hold issues that point to other open source projects, so that we may keep track of them in our workflows more effectively.
 
-It is meant to be used in conjunction with the [team workflow described here](https://team-compass.2i2c.org/en/latest/practices/coordination.html).
+## Goals of this repository
 
-# Guidelines for use
+2i2c needs to coordinate its priorities and work as a team, but doesn't wish to create silos of discussion around work that happens in upstream communities. The `external/` repository exists to be a bridge between 2i2c's work and these communities.
 
-**Use Project Labels**. Each issue in this repository should have a **Project Label**.
-These are labels structured like `proj: <project-name>`.
+We want this repository to be as lightweight as possible - it is just a place for us to keep track of items we wish to work on, not a place for discussion.
+
+
+## How to use this repository
+
+**Create tracking issues only**.
+Each issue in this repository should be a **tracking issue** that points somewhere else. For example, to one or more issues or pull requests in an upstream repository.
+
+**Do not use this repository for long-term planning**.
+Any longer-term planning or roadmapping should be done in an upstream repository. We do not use this repository to project plan over longer periods of time, *only* to track issues that we want to work on soon (say, within a few sprints).
+
+**Upstream issues should exist first**.
+Upstream issues are the "real" location for discussion, and should exist first before issues are created here. Any decisions about implementation should already happen upstream before we decide to work on something ourselves.
+
+**Each issue should have a project label**.
+These are GitHub labels structured like `proj: <project-name>`.
 The project label helps us know where else an issue refers to, and helps team members filter and sort them in our project boards.
 
-**Cross-link to open source projects**. For issues that refer to actions to take in other open source projects, make sure to include a link in your issue that points to where discussion / tracking is happening elsewhere.
-In general, we don't want this repository to contain too much information, just labels to help us organize, and pointers to other repositories where the action is happening.
+**Conversations happen in upstream repositories**.
+If there are conversations that must happen around the work, these should happen in upstream repositories, not here. The "comments" in any of the issues in this repository should be as minimal as possible.
