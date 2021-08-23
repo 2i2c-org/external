@@ -1,11 +1,11 @@
-# Coordinating external work
+# Coordinating upstream work
 
 This is a lightweight repository to facilitate planning deliverables and tasks for projects that do not have a natural repository inside of 2i2c.
 
 
 ## Goals of this repository
 
-2i2c needs to coordinate its priorities and work as a team, but doesn't wish to create silos of discussion around work that happens in upstream communities. The `external/` repository exists to be a bridge between 2i2c's work and these communities.
+2i2c needs to coordinate its priorities and work as a team, but doesn't wish to create silos of discussion around work that happens in upstream communities. The `upstream/` repository exists to be a bridge between 2i2c's work and these communities.
 
 We want this repository to be as lightweight as possible - it is just a place for us to keep track of items we wish to work on, not a place for discussion.
 
